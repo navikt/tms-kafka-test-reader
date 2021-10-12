@@ -1,13 +1,13 @@
 apiVersion: "nais.io/v1alpha1"
 kind: "Application"
 metadata:
-  name:
+  name: tms-kafka-test-reader-secrets
   namespace: min-side
   labels:
     team: min-side
 spec:
   envFrom:
-    - secret: tms-kafka-test-reasder-secrets
+    - secret: tms-kafka-test-reader-secrets
   image: {{version}}
   port: 8080
   liveness:
