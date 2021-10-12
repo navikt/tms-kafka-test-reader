@@ -3,9 +3,7 @@ package no.nav.tms.kafka.testreader.config
 import no.nav.personbruker.dittnav.common.util.config.StringEnvVar.getEnvVar
 import no.nav.tms.kafka.testreader.config.ConfigUtil.isCurrentlyRunningOnNais
 
-data class Environment(val username: String = getEnvVar("SERVICEUSER_USERNAME"),
-                       val password: String = getEnvVar("SERVICEUSER_PASSWORD"),
-                       val groupId: String = getEnvVar("GROUP_ID"),
+data class Environment(val groupId: String = getEnvVar("GROUP_ID"),
                        val clusterName: String = getEnvVar("NAIS_CLUSTER_NAME"),
                        val namespace: String = getEnvVar("NAIS_NAMESPACE"),
                        val aivenBrokers: String = getEnvVar("KAFKA_BROKERS"),
