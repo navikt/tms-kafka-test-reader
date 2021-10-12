@@ -29,6 +29,7 @@ dependencies {
     implementation("com.github.navikt:brukernotifikasjon-schemas-internal:1.2021.09.27-09.56-fee7c58af3ee")
     implementation(DittNAV.Common.utils)
     implementation(DittNAV.Common.influxdb)
+    implementation(DittNAV.Common.logging)
     implementation(Influxdb.java)
     implementation(Kafka.Apache.clients)
     implementation(Kafka.Confluent.avroSerializer)
