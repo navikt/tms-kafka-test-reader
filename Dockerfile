@@ -1,5 +1,4 @@
 FROM navikt/java:13-appdynamics
-COPY init.sh /init-scripts/init.sh
 COPY build/libs/tms-kafka-test-reader-all.jar /app/app.jar
 ENV JAVA_OPTS="-XX:MaxRAMPercentage=75 \
                -XX:+HeapDumpOnOutOfMemoryError \
