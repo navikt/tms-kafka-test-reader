@@ -1,6 +1,6 @@
 package no.nav.tms.kafka.testreader.config
 
-import no.nav.brukernotifikasjon.schemas.internal.*
+import no.nav.brukernotifikasjon.schemas.output.*
 import no.nav.tms.kafka.testreader.common.kafka.FeilresponsConsumer
 import no.nav.tms.kafka.testreader.feilrespons.FeilresponsEventService
 import org.apache.kafka.clients.consumer.KafkaConsumer

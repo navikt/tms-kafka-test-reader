@@ -1,8 +1,8 @@
 package no.nav.tms.kafka.testreader.common.kafka
 
 import kotlinx.coroutines.*
-import no.nav.brukernotifikasjon.schemas.internal.Feilrespons
-import no.nav.brukernotifikasjon.schemas.internal.NokkelFeilrespons
+import no.nav.brukernotifikasjon.schemas.output.Feilrespons
+import no.nav.brukernotifikasjon.schemas.output.NokkelFeilrespons
 import no.nav.tms.kafka.testreader.common.exceptions.UntransformableRecordException
 import no.nav.tms.kafka.testreader.feilrespons.FeilresponsEventService
 import no.nav.tms.kafka.testreader.health.HealthCheck

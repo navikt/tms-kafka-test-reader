@@ -1,8 +1,7 @@
 package no.nav.tms.kafka.testreader.common.kafka
 
-import no.nav.brukernotifikasjon.schemas.internal.Feilrespons
-import no.nav.brukernotifikasjon.schemas.internal.NokkelFeilrespons
-import no.nav.brukernotifikasjon.schemas.internal.NokkelIntern
+import no.nav.brukernotifikasjon.schemas.output.Feilrespons
+import no.nav.brukernotifikasjon.schemas.output.NokkelFeilrespons
 import org.apache.kafka.clients.consumer.KafkaConsumer
 
 fun KafkaConsumer<NokkelFeilrespons, Feilrespons>.rollbackToLastCommitted() {

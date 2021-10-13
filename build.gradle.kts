@@ -26,7 +26,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.navikt:brukernotifikasjon-schemas-internal:1.2021.09.27-09.56-fee7c58af3ee")
+    implementation("com.github.navikt:brukernotifikasjon-schemas:1.2021.10.12-13.46-e426a37b3df4")
     implementation(DittNAV.Common.utils)
     implementation(DittNAV.Common.influxdb)
     implementation(DittNAV.Common.logging)
